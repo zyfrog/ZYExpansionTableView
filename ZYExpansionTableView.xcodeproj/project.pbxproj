@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AB5DCBF17C8D04300E133DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5DCBE17C8D04300E133DC /* UIKit.framework */; };
+		6AB5DCC117C8D04300E133DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5DCC017C8D04300E133DC /* Foundation.framework */; };
+		6AB5DCC317C8D04300E133DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5DCC217C8D04300E133DC /* CoreGraphics.framework */; };
+		6AB5DCC917C8D04300E133DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5DCC717C8D04300E133DC /* InfoPlist.strings */; };
+		6AB5DCCB17C8D04300E133DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5DCCA17C8D04300E133DC /* main.m */; };
+		6AB5DCCF17C8D04300E133DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5DCCE17C8D04300E133DC /* AppDelegate.m */; };
+		6AB5DCD117C8D04300E133DC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5DCD017C8D04300E133DC /* Default.png */; };
+		6AB5DCD317C8D04300E133DC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5DCD217C8D04300E133DC /* Default@2x.png */; };
+		6AB5DCD517C8D04300E133DC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5DCD417C8D04300E133DC /* Default-568h@2x.png */; };
+		6AB5DCD817C8D04300E133DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5DCD717C8D04300E133DC /* ViewController.m */; };
+		6AB5DCE717C8D09400E133DC /* ExpansionData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5DCE217C8D09400E133DC /* ExpansionData.plist */; };
+		6AB5DCE817C8D09400E133DC /* ZYExpansionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5DCE417C8D09400E133DC /* ZYExpansionTableView.m */; };
+		6AB5DCE917C8D09400E133DC /* ZYExpansionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5DCE617C8D09400E133DC /* ZYExpansionTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6AB5DCBA17C8D04300E133DC /* ZYExpansionTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYExpansionTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB5DCBE17C8D04300E133DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AB5DCC017C8D04300E133DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AB5DCC217C8D04300E133DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AB5DCC617C8D04300E133DC /* ZYExpansionTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZYExpansionTableView-Info.plist"; sourceTree = "<group>"; };
+		6AB5DCC817C8D04300E133DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AB5DCCA17C8D04300E133DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AB5DCCC17C8D04300E133DC /* ZYExpansionTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYExpansionTableView-Prefix.pch"; sourceTree = "<group>"; };
+		6AB5DCCD17C8D04300E133DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AB5DCCE17C8D04300E133DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AB5DCD017C8D04300E133DC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6AB5DCD217C8D04300E133DC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6AB5DCD417C8D04300E133DC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6AB5DCD617C8D04300E133DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6AB5DCD717C8D04300E133DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6AB5DCE217C8D09400E133DC /* ExpansionData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExpansionData.plist; sourceTree = "<group>"; };
+		6AB5DCE317C8D09400E133DC /* ZYExpansionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYExpansionTableView.h; sourceTree = "<group>"; };
+		6AB5DCE417C8D09400E133DC /* ZYExpansionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYExpansionTableView.m; sourceTree = "<group>"; };
+		6AB5DCE517C8D09400E133DC /* ZYExpansionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYExpansionTableViewCell.h; sourceTree = "<group>"; };
+		6AB5DCE617C8D09400E133DC /* ZYExpansionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYExpansionTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AB5DCB717C8D04300E133DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB5DCBF17C8D04300E133DC /* UIKit.framework in Frameworks */,
+				6AB5DCC117C8D04300E133DC /* Foundation.framework in Frameworks */,
+				6AB5DCC317C8D04300E133DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AB5DCAF17C8D04300E133DC = {
+			isa = PBXGroup;
+			children = (
+				6AB5DCC417C8D04300E133DC /* ZYExpansionTableView */,
+				6AB5DCBD17C8D04300E133DC /* Frameworks */,
+				6AB5DCBB17C8D04300E133DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AB5DCBB17C8D04300E133DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5DCBA17C8D04300E133DC /* ZYExpansionTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AB5DCBD17C8D04300E133DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5DCBE17C8D04300E133DC /* UIKit.framework */,
+				6AB5DCC017C8D04300E133DC /* Foundation.framework */,
+				6AB5DCC217C8D04300E133DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AB5DCC417C8D04300E133DC /* ZYExpansionTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5DCE117C8D09400E133DC /* ZYExpansionTableView */,
+				6AB5DCCD17C8D04300E133DC /* AppDelegate.h */,
+				6AB5DCCE17C8D04300E133DC /* AppDelegate.m */,
+				6AB5DCD617C8D04300E133DC /* ViewController.h */,
+				6AB5DCD717C8D04300E133DC /* ViewController.m */,
+				6AB5DCC517C8D04300E133DC /* Supporting Files */,
+			);
+			path = ZYExpansionTableView;
+			sourceTree = "<group>";
+		};
+		6AB5DCC517C8D04300E133DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5DCC617C8D04300E133DC /* ZYExpansionTableView-Info.plist */,
+				6AB5DCC717C8D04300E133DC /* InfoPlist.strings */,
+				6AB5DCCA17C8D04300E133DC /* main.m */,
+				6AB5DCCC17C8D04300E133DC /* ZYExpansionTableView-Prefix.pch */,
+				6AB5DCD017C8D04300E133DC /* Default.png */,
+				6AB5DCD217C8D04300E133DC /* Default@2x.png */,
+				6AB5DCD417C8D04300E133DC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AB5DCE117C8D09400E133DC /* ZYExpansionTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5DCE217C8D09400E133DC /* ExpansionData.plist */,
+				6AB5DCE317C8D09400E133DC /* ZYExpansionTableView.h */,
+				6AB5DCE417C8D09400E133DC /* ZYExpansionTableView.m */,
+				6AB5DCE517C8D09400E133DC /* ZYExpansionTableViewCell.h */,
+				6AB5DCE617C8D09400E133DC /* ZYExpansionTableViewCell.m */,
+			);
+			path = ZYExpansionTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AB5DCB917C8D04300E133DC /* ZYExpansionTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB5DCDE17C8D04300E133DC /* Build configuration list for PBXNativeTarget "ZYExpansionTableView" */;
+			buildPhases = (
+				6AB5DCB617C8D04300E133DC /* Sources */,
+				6AB5DCB717C8D04300E133DC /* Frameworks */,
+				6AB5DCB817C8D04300E133DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYExpansionTableView;
+			productName = ZYExpansionTableView;
+			productReference = 6AB5DCBA17C8D04300E133DC /* ZYExpansionTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AB5DCB117C8D04300E133DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Xinling Zhang";
+			};
+			buildConfigurationList = 6AB5DCB417C8D04300E133DC /* Build configuration list for PBXProject "ZYExpansionTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AB5DCAF17C8D04300E133DC;
+			productRefGroup = 6AB5DCBB17C8D04300E133DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AB5DCB917C8D04300E133DC /* ZYExpansionTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB5DCB817C8D04300E133DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB5DCC917C8D04300E133DC /* InfoPlist.strings in Resources */,
+				6AB5DCD117C8D04300E133DC /* Default.png in Resources */,
+				6AB5DCD317C8D04300E133DC /* Default@2x.png in Resources */,
+				6AB5DCD517C8D04300E133DC /* Default-568h@2x.png in Resources */,
+				6AB5DCE717C8D09400E133DC /* ExpansionData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB5DCB617C8D04300E133DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB5DCCB17C8D04300E133DC /* main.m in Sources */,
+				6AB5DCCF17C8D04300E133DC /* AppDelegate.m in Sources */,
+				6AB5DCD817C8D04300E133DC /* ViewController.m in Sources */,
+				6AB5DCE817C8D09400E133DC /* ZYExpansionTableView.m in Sources */,
+				6AB5DCE917C8D09400E133DC /* ZYExpansionTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AB5DCC717C8D04300E133DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB5DCC817C8D04300E133DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AB5DCDC17C8D04300E133DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AB5DCDD17C8D04300E133DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AB5DCDF17C8D04300E133DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYExpansionTableView/ZYExpansionTableView-Prefix.pch";
+				INFOPLIST_FILE = "ZYExpansionTableView/ZYExpansionTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AB5DCE017C8D04300E133DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYExpansionTableView/ZYExpansionTableView-Prefix.pch";
+				INFOPLIST_FILE = "ZYExpansionTableView/ZYExpansionTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AB5DCB417C8D04300E133DC /* Build configuration list for PBXProject "ZYExpansionTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB5DCDC17C8D04300E133DC /* Debug */,
+				6AB5DCDD17C8D04300E133DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB5DCDE17C8D04300E133DC /* Build configuration list for PBXNativeTarget "ZYExpansionTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB5DCDF17C8D04300E133DC /* Debug */,
+				6AB5DCE017C8D04300E133DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AB5DCB117C8D04300E133DC /* Project object */;
+}
